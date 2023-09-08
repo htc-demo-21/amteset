@@ -1,7 +1,7 @@
 apiVersion: score.dev/v1b1
 
 metadata:
-  name: "amteset"
+  name: "amtest"
 
 service:
   ports:
@@ -13,7 +13,7 @@ containers:
   frontend:
     image: # Set by pipeline
     variables:
-      Hello: MiellenniumIT
+      Hello: MillieniumIT
 
 resources:
   dns: # We need a DNS record to point to the service 
