@@ -16,10 +16,10 @@ containers:
       Hello: World
 
 resources:
-bucket:
-    type: azure-blob
   dns: # We need a DNS record to point to the service 
     type: dns
+  bucket:
+    type: azure-blob
   route:
     type: route
     params:
