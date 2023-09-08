@@ -17,7 +17,7 @@ containers:
 
 resources:
 bucket:
-  type: Azure Blob Storage
+  type: azure-blob
   dns: # We need a DNS record to point to the service 
     type: dns
   route:
